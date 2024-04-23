@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "announcement_id",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "announcement_id",
+						"type": "uint256"
+					}
+				],
+				"name": "viewCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleCounter.sol": "CommunityCounter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleCounter.sol": {
+			"keccak256": "0xbbf0219258f504b87688e99f15371d1404c60b4d238a44d29573d2cf1a53ac3b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db4259d184128e7dca21cc9aa003b5770bc5b347c3979b01907d7057d56d30b4",
+				"dweb:/ipfs/QmdLSCkuAdsMHZCBhhAdRa7SkTixUkT4B3fBBE3usMKEVu"
+			]
+		}
+	},
+	"version": 1
+}
